@@ -17,7 +17,7 @@ output_file = "paystub_output.json"
 with open(output_file, "w") as json_file:
     json.dump(response_data, json_file)
 
-print("Output saved to", output_file)
+print("\nOutput saved to", output_file)
 
 time.sleep(5)
 
